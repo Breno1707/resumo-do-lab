@@ -1,62 +1,52 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
 
-🖥️ Criação de Máquinas Virtuais (VMs) no Microsoft Azure – Resumo
-A máquina virtual (VM) no Azure é um recurso de infraestrutura como serviço (IaaS) que permite executar sistemas operacionais e aplicativos em um ambiente virtualizado na nuvem.
+# 🖥️ Criação de Máquinas Virtuais no Microsoft Azure
 
-✅ Etapas básicas para criar uma VM no Azure:
-Acessar o Portal do Azure
+As **máquinas virtuais (VMs)** no Azure são recursos de **Infraestrutura como Serviço (IaaS)** que permitem executar sistemas operacionais e aplicativos em um ambiente virtualizado na nuvem.
 
-Entrar no portal.azure.com
+## ✅ Etapas para Criar uma VM no Azure
 
-Criar um novo recurso
+1. **Acesse o Portal do Azure**  
+   Vá para [https://portal.azure.com](https://portal.azure.com)
 
-Clique em "Criar um recurso" > "Máquina virtual"
+2. **Crie um novo recurso**  
+   Clique em **"Criar um recurso" > "Máquina virtual"**
 
-Preencher as informações básicas
+3. **Preencha as informações básicas**  
+   - **Nome da VM**  
+   - **Região** (localização do datacenter)  
+   - **Imagem** (sistema operacional: Windows, Linux, etc.)  
+   - **Tamanho da VM** (CPU, memória)  
+   - **Usuário administrador** (senha ou chave SSH)
 
-Nome da VM
+4. **Configure opções adicionais (opcional)**  
+   - **Discos** (tipo e tamanho)  
+   - **Rede virtual e IP público**  
+   - **Portas de acesso** (ex: abrir porta 80 para web)
 
-Região (datacenter onde será hospedada)
+5. **Revise e crie**  
+   Verifique todas as configurações e clique em **"Criar"**
 
-Imagem (sistema operacional: Windows, Linux, etc.)
+6. **Provisionamento automático**  
+   O Azure cria a máquina virtual em poucos minutos.
 
-Tipo de máquina (tamanho/CPU/RAM)
+## 💡 Benefícios das VMs no Azure
 
-Conta de administrador (usuário e senha ou chave SSH)
+- 🚀 **Implantação rápida**
+- 📈 **Escalabilidade**
+- 🔁 **Alta disponibilidade**
+- 🌐 **Acesso remoto**
+- 🔗 **Integração com outros serviços do Azure**
 
-Configurar opções adicionais (opcional)
+## 🔧 Gerenciamento da VM
 
-Discos (tipo e tamanho do armazenamento)
+Após a criação, você pode:
+- Conectar via **RDP** (Windows) ou **SSH** (Linux)
+- **Iniciar, parar, reiniciar ou redimensionar** a VM
+- **Monitorar o desempenho** com Azure Monitor
+- **Configurar backups e segurança**
 
-Rede virtual e IP público
+---
 
-Regras de firewall (ex: abrir porta 80 para web)
-
-Revisar e criar
-
-Revisar configurações e clicar em "Criar"
-
-Provisionamento
-
-O Azure cria a VM automaticamente em poucos minutos.
-
-💡 Benefícios das VMs no Azure:
-Implantação rápida
-
-Escalabilidade
-
-Alta disponibilidade
-
-Acesso remoto
-
-Integração com outros serviços do Azure
-
-🔧 Gerenciamento
-Após criada, você pode:
-
-Conectar via RDP (Windows) ou SSH (Linux)
-
-Redimensionar, parar/iniciar, fazer backup
-
-Monitorar o uso com ferramentas como Azure Monitor
+📘 *Esse guia fornece uma visão geral prática para quem está começando a usar máquinas virtuais no Azure.*
